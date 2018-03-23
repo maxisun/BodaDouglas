@@ -48,6 +48,8 @@
         android:rotation="90"
         android:id="@+id/textView" />
 
+    <!-- mesa sara-->
+
     <TextView
         android:id="@+id/carlos"
         android:layout_width="wrap_content"
@@ -89,13 +91,14 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="50dp"/>
 
+    <!-- mesa pedro-->
+
     <ImageView
         android:id="@+id/mesaPedro"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/mesa"
-        />
+        android:src="@drawable/mesa"/>
 
     <TextView
         android:id="@+id/Pedro"
@@ -147,7 +150,6 @@
         android:layout_marginLeft="-20dp"/>
 
     <!-- mesa douglas-->
-
     <ImageView
         android:id="@+id/mesaDouglas"
         android:layout_width="75dp"
