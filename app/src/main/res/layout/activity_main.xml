@@ -45,6 +45,67 @@
         android:text="Hugo"
         android:textSize="20sp"
         android:rotation="90"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/carlos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carlos"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="32dp"/>
+
+    <ImageView
+        android:id="@+id/mesaSara"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/mesa"
+        android:layout_alignRight="@id/carlos"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
         />
 
+    <TextView
+        android:id="@+id/obdulio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obdulio"
+        android:textSize="20sp"
+        android:layout_toLeftOf="@id/carlos"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sara"
+        android:textSize="20sp"
+        android:rotation="270"
+        android:layout_alignLeft="@id/obdulio"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"/>
+
+    <ImageView
+        android:id="@+id/mesaPedro"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/mesa"
+        />
+
+    <TextView
+        android:id="@+id/Pedro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mesaPedro"
+        android:gravity="center"
+        android:layout_alignStart="@+id/mesaPedro"
+        android:layout_alignRight="@id/mesaPedro"
+        android:layout_alignEnd="@+id/mesaPedro"
+        android:layout_alignLeft="@id/mesaPedro"
+        android:text="Pedro"
+        android:textSize="20sp"/>
 </RelativeLayout>
