@@ -108,4 +108,109 @@
         android:layout_alignLeft="@id/mesaPedro"
         android:text="Pedro"
         android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="invitado"
+        android:textSize="20sp"
+        android:layout_toStartOf="@id/mesaPedro"
+        android:layout_toLeftOf="@id/mesaPedro"
+        android:layout_centerInParent="true"
+        android:rotation="270"
+        android:gravity="center"
+        android:layout_marginRight="-20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="invitado"
+        android:layout_above="@id/mesaPedro"
+        android:layout_alignStart="@+id/mesaPedro"
+        android:layout_alignRight="@id/mesaPedro"
+        android:layout_alignEnd="@+id/mesaPedro"
+        android:layout_alignLeft="@id/mesaPedro"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="invitado"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/mesaPedro"
+        android:layout_toRightOf="@id/mesaPedro"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:rotation="90"
+        android:layout_marginLeft="-20dp"/>
+
+    <!-- mesa douglas-->
+
+    <ImageView
+        android:id="@+id/mesaDouglas"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/mesa"
+        android:layout_below="@id/Novia"
+        android:layout_alignLeft="@id/Novia"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="-20dp"
+        />
+
+    <TextView
+        android:id="@+id/Novia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novia"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/Douglas"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/Douglas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Douglas"
+        android:textSize="20sp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="invitado"
+        android:textSize="19sp"
+        android:layout_below="@id/Douglas"
+        android:rotation="90"
+        android:layout_toRightOf="@id/mesaDouglas"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-20dp"
+        android:layout_alignBottom="@id/mesaDouglas"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="invitado"
+        android:textSize="20sp"
+        android:layout_below="@id/mesaDouglas"
+        android:layout_alignLeft="@id/mesaDouglas"
+        android:layout_alignRight="@id/mesaDouglas"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="invitado"
+        android:textSize="20sp"
+        android:layout_toLeftOf="@id/mesaDouglas"
+        android:layout_alignTop="@id/mesaDouglas"
+        android:layout_alignBottom="@id/mesaDouglas"
+        android:gravity="center"
+        android:rotation="270"
+        android:layout_marginRight="-50dp"
+        />
 </RelativeLayout>
