@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.max00.bodadouglas.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/mesaKarla"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/karla"
+        android:src="@drawable/mesa"
+        android:layout_toRightOf="@+id/Sebas"
+        />
+
+    <TextView
+        android:id="@+id/karla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mesaKarla"
+        android:layout_alignStart="@id/mesaKarla"
+        android:gravity="center"
+        android:text="Karla"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Sebas"
+        android:rotation="270"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sebastian"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="-20dp"
+        android:textSize="20sp"
+        android:layout_marginRight="-30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/mesaKarla"
+        android:layout_alignBottom="@+id/mesaKarla"
+        android:text="Hugo"
+        android:textSize="20sp"
+        android:rotation="90"
+        />
+
+</RelativeLayout>
