@@ -9,6 +9,7 @@
     <!-- mesa karla-->
 
     <ImageView
+        android:contentDescription="@string/image_mesa_de_karla"
         android:id="@+id/mesaKarla"
         android:layout_width="75dp"
         android:layout_height="75dp"
@@ -24,7 +25,7 @@
         android:layout_alignLeft="@+id/mesaKarla"
         android:layout_alignStart="@id/mesaKarla"
         android:gravity="center"
-        android:text="Karla"
+        android:text="@string/karla"
         android:textSize="20sp" />
 
     <TextView
@@ -32,7 +33,7 @@
         android:rotation="270"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sebastian"
+        android:text="@string/sebastian"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="-20dp"
         android:textSize="20sp"
@@ -43,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/mesaKarla"
         android:layout_alignBottom="@+id/mesaKarla"
-        android:text="Hugo"
+        android:text="@string/hugo"
         android:textSize="20sp"
         android:rotation="90"
         android:id="@+id/textView" />
@@ -54,7 +55,7 @@
         android:id="@+id/carlos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Carlos"
+        android:text="@string/carlos"
         android:textSize="20sp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
@@ -62,6 +63,7 @@
 
     <ImageView
         android:id="@+id/mesaSara"
+        android:contentDescription="@string/image_mesa_de_sara"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:src="@drawable/mesa"
@@ -75,7 +77,7 @@
         android:id="@+id/obdulio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Obdulio"
+        android:text="@string/obdulio"
         android:textSize="20sp"
         android:layout_toLeftOf="@id/carlos"
         android:layout_alignParentBottom="true"
@@ -84,7 +86,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sara"
+        android:text="@string/sara"
         android:textSize="20sp"
         android:rotation="270"
         android:layout_alignLeft="@id/obdulio"
@@ -94,6 +96,7 @@
     <!-- mesa pedro-->
 
     <ImageView
+        android:contentDescription="@string/image_mesa_de_pedro"
         android:id="@+id/mesaPedro"
         android:layout_width="75dp"
         android:layout_height="75dp"
@@ -110,13 +113,13 @@
         android:layout_alignRight="@id/mesaPedro"
         android:layout_alignEnd="@+id/mesaPedro"
         android:layout_alignLeft="@id/mesaPedro"
-        android:text="Pedro"
+        android:text="@string/pedro"
         android:textSize="20sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="invitado"
+        android:text="@string/invitado"
         android:textSize="20sp"
         android:layout_toStartOf="@id/mesaPedro"
         android:layout_toLeftOf="@id/mesaPedro"
@@ -129,7 +132,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="invitado"
+        android:text="@string/invitado"
         android:layout_above="@id/mesaPedro"
         android:layout_alignStart="@+id/mesaPedro"
         android:layout_alignRight="@id/mesaPedro"
@@ -140,7 +143,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="invitado"
+        android:text="@string/invitado"
         android:textSize="20sp"
         android:layout_toEndOf="@id/mesaPedro"
         android:layout_toRightOf="@id/mesaPedro"
@@ -151,6 +154,7 @@
 
     <!-- mesa douglas-->
     <ImageView
+        android:contentDescription="@string/image_mesa_de_douglas"
         android:id="@+id/mesaDouglas"
         android:layout_width="75dp"
         android:layout_height="75dp"
@@ -165,7 +169,7 @@
         android:id="@+id/Novia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Novia"
+        android:text="@string/novia"
         android:textSize="20sp"
         android:layout_alignParentTop="true"
         android:layout_toLeftOf="@id/Douglas"
@@ -176,7 +180,7 @@
         android:id="@+id/Douglas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Douglas"
+        android:text="@string/douglas"
         android:textSize="20sp"
         android:layout_marginRight="30dp"
         android:layout_alignParentRight="true"/>
@@ -184,7 +188,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="invitado"
+        android:text="@string/invitado"
         android:textSize="19sp"
         android:layout_below="@id/Douglas"
         android:rotation="90"
@@ -197,7 +201,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="invitado"
+        android:text="@string/invitado"
         android:textSize="20sp"
         android:layout_below="@id/mesaDouglas"
         android:layout_alignLeft="@id/mesaDouglas"
@@ -207,7 +211,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="invitado"
+        android:text="@string/invitado"
         android:textSize="20sp"
         android:layout_toLeftOf="@id/mesaDouglas"
         android:layout_alignTop="@id/mesaDouglas"

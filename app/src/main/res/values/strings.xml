@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">BodaDouglas</string>
+    <string name="karla">Karla</string>
+    <string name="sebastian">Sebastian</string>
+    <string name="hugo">Hugo</string>
+    <string name="carlos">Carlos</string>
+    <string name="obdulio">Obdulio</string>
+    <string name="pedro">Pedro</string>
+    <string name="invitado">invitado</string>
+    <string name="sara">Sara</string>
+    <string name="novia">Novia</string>
+    <string name="douglas">Douglas</string>
+    <string name="invitado">invitado</string>
+    <string name="image_mesa_de_pedro">IMAGE mesa de pedro</string>
+    <string name="image_mesa_de_karla">IMAGE mesa de karla</string>
+    <string name="image_mesa_de_douglas">IMAGE mesa de douglas</string>
+    <string name="image_mesa_de_sara">IMAGE mesa de sara</string>
 </resources>
